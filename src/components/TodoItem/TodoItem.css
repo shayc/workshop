@@ -1,0 +1,27 @@
+.TodoItem {
+  width: 100%;
+  height: 4em;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+
+  border-color: darkgreen;
+}
+
+.TodoItem__checkbox {
+  margin-right: 1em;
+}
+
+.TodoItem__text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.TodoItem__delete {
+  line-height: 1;
+  height: 100%;
+  margin-left: auto;
+}

@@ -1,0 +1,14 @@
+.AddTodo {
+  height: 4em;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border: 1px solid transparent;
+  display: flex;
+
+  border-color: royalblue;
+}
+
+.AddTodo__input {
+  width: calc(100% - 2em);
+  padding: 0 1em;
+}
