@@ -16,7 +16,7 @@ function TodoItem(props) {
         }}
       />
 
-      <span className="TodoItem__text">{todo.text}</span>
+      <span className="TodoItem__text" style={{textDecoration: todo.completed ? 'line-through' : 'none'}}>{todo.text}</span>
 
       <button
         className="TodoItem__delete"
